@@ -1,0 +1,50 @@
+body {
+	padding: 45px;
+	font-size: 18px;
+	font-family: helvetica neue;
+	background: black;
+}
+.content {
+	max-width: 1000px;
+	padding: 50px;
+	color: white;
+	font-size: 22px;
+	font-family: didot;
+}
+.content2 {
+	text-align: right;
+	font-family: helvetica;
+	font-size: 18px;
+	padding-left: 300px;
+	padding-top: 20px;
+	color: white;
+}
+.true-crimson-red {
+	font-family: didot;
+	font-size: 36px;
+}
+.true-crimson-red:hover {
+	color: black;
+	color: #af0011;
+	transition: all 0.8s ease;
+}
+.bright-red-color {
+	text-decoration: underline;
+	text-decoration: italic;
+	font-size: 24px;
+}
+.bright-red-color:hover {
+	color: #af0011;
+	transition: all 0.8s ease;
+}
+.photo{
+	display: block;
+	margin: 0 auto;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.photo:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
